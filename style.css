@@ -1,0 +1,196 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80%;
+}
+
+/*This is the headar part*/
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 15px 0 0px;
+}
+
+header a {
+  color: #202020;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+  color: black;
+}
+.topicons {
+  display: flex;
+  flex-direction: row;
+  padding: 0 15px 0 0px;
+}
+
+.topicons p {
+  padding: 4px 15px 0 0;
+}
+
+.three {
+  display: flex;
+  flex-direction: row;
+}
+
+#dashboard {
+  height: 16px;
+}
+
+#connexion {
+  background-color: rgb(85, 132, 240);
+  color: white;
+  padding: 8px 8px 8px 8px;
+  margin: 8px 0 0 0;
+  font-weight: bold;
+  height: 100%;
+  width: 100%;
+}
+
+/*This is the Section part*/
+section {
+  width: 100%;
+  margin: 150px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  height: 90px;
+  padding: 0 0 20px 0;
+}
+
+.sectionbtn {
+  padding: 20px 0 20px 0;
+  cursor: pointer;
+}
+
+.covid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.covid a {
+  color: darkblue;
+}
+
+#corona {
+  width: 3.5em;
+  margin: 0 10px 0 0;
+}
+
+#searchbar {
+  position: absolute;
+  top: 322px;
+  width: 450px;
+  height: 35px;
+  background: white;
+  border: 0.5px solid rgb(201, 201, 201);
+  border-radius: 20px;
+}
+
+#searchbar:focus {
+  outline: 0;
+}
+
+.rectangle:hover {
+  box-shadow: 2px 2px rgba(201, 201, 201, 0.8);
+}
+
+.rectangle {
+  height: 45px;
+  width: 550px;
+  border: 0.5px solid rgb(201, 201, 201);
+  border-radius: 20px;
+}
+#glass {
+  height: 15px;
+  position: absolute;
+  right: 967px;
+  top: 333px;
+  opacity: 0.3;
+}
+
+#mic {
+  height: 18px;
+  position: absolute;
+  right: 467px;
+  top: 333px;
+}
+
+#recherche,
+#submit {
+  background-color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 8px 8px 8px;
+  cursor: pointer;
+}
+
+#recherche,
+#submit:focus {
+  outline: 0;
+}
+
+#recherche {
+  margin: 0 5px 0 0;
+}
+
+#submit {
+  margin: 0 0 0 5px;
+}
+
+/*This is the Footer part*/
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: dimgray;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.pays {
+  display: flex;
+  align-content: center;
+  padding: 0 0 0 20px;
+  background-color: #f2f2f2;
+  border: 1px solid rgb(223, 222, 222);
+  color: dimgray;
+  text-decoration: none;
+  font-size: 15px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #f2f2f2;
+}
+.lefticons {
+  display: flex;
+  flex-direction: row;
+}
+
+.lefticons p {
+  padding: 0 12px 0 20px;
+}
+
+.righticons {
+  display: flex;
+  flex-direction: row;
+}
+
+.righticons p {
+  padding: 0 20px 0 0px;
+}
